@@ -1,0 +1,69 @@
+.homee{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(82, 82, 80,0.6),rgba(82,82,80,0.6)), url(kZBM36b.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.content{
+    color: rgb(230, 225, 225);
+    text-align: justify;
+    margin: 80px;
+    font-family: cursive;
+    font-size: large;
+    width: 80%;
+}
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    font-family: cursive;
+    margin-top: 0 ;
+}
+.navbar{
+    position: fixed;
+}
+.trivia{
+    margin: 30px 70px;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    font-size: large;
+    font-family: cursive;
+}
+.imgl{
+    width: 40%;
+    float: right;
+    margin: 30px 20px;
+    border-radius: 10px;
+}
+.life{
+    float: left;
+    width: 50%;
+    margin: 30px;
+    color: rgb(230, 225, 225);
+    font-family: cursive;
+}
+.debut{
+    width: 60%;
+    margin: 30px 50px 30px 10px;
+    color: rgb(230, 225, 225);
+    font-family: cursive;
+    float: right;
+}
+video{
+    width: 28%;
+    float: left;
+    margin:10px 10px 10px 30px;
+    border-radius: 5px;
+}
+.g{
+    width: 30%;
+    margin: 20px;
+    border-radius: 15px;
+}
+.yt{
+    text-decoration: none;
+    color: rgb(230, 225, 225);
+}
+.yt:hover{
+    color: black;
+}

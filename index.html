@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JJ</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</head>
+<body class="homee">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+                        
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Carrer
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="life.html">Life</a></li>
+                <li><a class="dropdown-item" href="debut.html">Career</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="trivia.html">Trivia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gal.html">Gallery</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+      <div class="content">
+          <h1>Jeong Jaehyun</h1>
+       <br> Jeong Yun-o (Hangul: 정윤오) (born Jeong Jae-hyun; Hangul: 정재현) referred to as Jaehyun (Hangul: 재현) or Jay (in English) is a South Korean singer-songwriter, actor and rapper born in Seoul on February 14, 1997. He is one of the main vocalists and lead dancers of NCT U and a main vocalist, lead dancer, and sub rapper of NCT 127.
+       <br>
+       <br>
+       <div> <h2>Profile</h2> 
+           <ul>
+               <li>Stage Name: Jaehyun (재현)</li>
+               <li>Zodiac Sign: Aquarius</li>
+               <li>Position:
+                Main Vocal,
+                Lead Dancer,
+                Lead Rapper</li>
+                <li>Nickname: Woojae, Jeffrey, J, Jeong Jaeyuk, Valentine Boy, Umchinah, Bbang Jae, Memory Manipulator, Peaches, Nation's first love, Jayhyen, Cha Minho, Jae, Yoonoh, Jay Hun</li>
+           </ul>
+
+       </div>
+      <br>
+      <div >Click the play button to play his cover song - <a class="yt" href="https://www.youtube.com/watch?v=xEKlhTV2HYI" target="_blank" >I Like Me Better </a><img src="play.png" id="icon" width="60px">
+      <audio id="mysong">
+          <source src="i like me better.mp3" type="audio/mp3">
+      </audio>
+      <script>
+        var song=document.getElementById("mysong");
+        var icon=document.getElementById("icon");
+
+        icon.onclick=function(){
+            if(song.paused){
+                song.play();
+                icon.src = "pause.png";
+            }
+            else{
+                song.pause();
+                icon.src = "play.png";
+            }
+        }
+    </script>
+    </div>
+    </div>
+</body>
+</html>
